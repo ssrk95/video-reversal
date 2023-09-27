@@ -17,7 +17,7 @@ function App(){
                 setRevStatus('reversing');
                 const formData = new FormData();
                 formData.append('video', file);
-                fetch('http://localhost:3001/reverseVideo', {
+                fetch('https://video-reversal-server.el.r.appspot.com/reverseVideo', {
                     method: 'POST',
                     body: formData,
                 })
