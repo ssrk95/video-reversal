@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    font-family: Open Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+
+.mainDiv{
+    background-color: #ffffff;
+    height: 100vh;
+    overflow: auto;
+}
+
+.mainDiv .header .intro{
+    text-align: center;
+}
+.mainDiv .header .intro span,
+.mainDiv .header .intro h1{
+    color: #ffffff;
+}
+.mainDiv .header{
+    height: 20%;
+    background-image: linear-gradient(45deg,#202020,#3a3a3a);
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDiv .content{
+    height: 70%;
+}
+.mainDiv .content .selectFileCont{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px #000000;
+}
+.mainDiv .content .selectFile{
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #b53836;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 7px;
+}
+.mainDiv .content .selectFile:hover{
+    background-color: #9c3836;
+}
+.mainDiv .content .selectFile .label{
+    color: white;
+}
+.mainDiv .content .selectFile .label .main{
+    font-size: 18px;
+}
+.mainDiv .content .selectFile .label .formats{
+    font-size: 11px;
+}
+.mainDiv .content .selectFile img{
+    width: 25px;
+    height: 25px;
+}
+
+.mainDiv .content .videosCont{
+    height: 85%;
+    display: flex;
+}
+.mainDiv .content .videosCont .lhs .srcVideoCont{
+    width: 80%;
+}
+.mainDiv .content .videosCont .lhs .reverseBtn{
+    background-color: rgb(0, 123, 255);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    margin-left: calc(50% - 100px);
+    margin-top: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.mainDiv .content .videosCont .lhs .reverseBtn:hover{
+    font-weight: 600;
+    color: #000000;
+    background-color: #00fdb1;
+}
+
+.mainDiv .content .videosCont .lhs{
+    width: 50%;
+    border-right: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainDiv .content .videosCont .rhs{
+    width: 50%;
+    border-bottom: solid 1px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainDiv .content .videosCont .rhs .revVideoCont{
+    width: 80%;
+}
+
+.mainDiv .footer{
+    height: 10%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainDiv .footer .downloadFileCont{
+    width: 220px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #b53836;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;   
+}
+.mainDiv .footer .downloadFileCont span{
+    color: #ffffff;
+    font-size: 18px;
+}
+.mainDiv .footer .downloadFileCont a{
+    display: none;
+}
+.mainDiv .footer .failureMsg{
+    color: #b53836;
+    font-weight: bold;
+    font-size: 18px;
+}
