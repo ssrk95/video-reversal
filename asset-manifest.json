@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/video-reversal/static/css/main.171e2ba7.css",
+    "main.js": "/video-reversal/static/js/main.8fa119d1.js",
+    "static/media/loader.gif": "/video-reversal/static/media/loader.4c85eba823b4c3d5dee7.gif",
+    "static/media/upload-icon.png": "/video-reversal/static/media/upload-icon.eda10a0b8a8dede13e30.png",
+    "index.html": "/video-reversal/index.html",
+    "main.171e2ba7.css.map": "/video-reversal/static/css/main.171e2ba7.css.map",
+    "main.8fa119d1.js.map": "/video-reversal/static/js/main.8fa119d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.171e2ba7.css",
+    "static/js/main.8fa119d1.js"
+  ]
+}
